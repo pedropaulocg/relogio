@@ -1,0 +1,26 @@
+body{
+    font-family: "Gemunu Libre";
+}
+#background1{
+    background-image: url('imagens/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#background2{
+    background-image: url('imagens/noite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(151, 151, 151, 0.596);
+    width: 600px;
+    height: 200px;
+}
